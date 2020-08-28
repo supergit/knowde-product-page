@@ -1,0 +1,405 @@
+body {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "MyWebFont";
+  src: url("../knowde-icons.woff2") format("woff2");
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+/* ---------- document section ---------- */
+
+.all-document {
+  margin-top: 50px;
+}
+
+.all-document a {
+  margin-right: 0;
+  color: #00a99d;
+  text-decoration: none;
+}
+
+.all-exports {
+  margin-top: 50px;
+}
+
+.all-exports a {
+  margin-right: 0;
+  color: #00a99d;
+  text-decoration: none;
+}
+
+/* --------- meet our experts card ---------- */
+
+.meet-experts {
+  display: block;
+  height: 100%;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+  padding: 16px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #00a99d;
+  color: #fff;
+}
+
+.img img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.card .text {
+  margin-top: 20px;
+  padding-left: 30px;
+}
+
+.message-button button {
+  padding: 4px 16px !important;
+  background: #fff;
+  color: #00a99d;
+  border-color: transparent;
+  border-radius: 20px;
+}
+
+.message-button button:focus {
+  border-color: transparent !important;
+  outline: 0px auto transparent !important;
+}
+
+/* ------------- modal ------------ */
+
+.modal-content {
+  color: black;
+}
+
+.modal h1 {
+  font-weight: 700;
+  font-size: 44px;
+  letter-spacing: normal;
+}
+
+.header {
+  padding: 25px 0 35px;
+}
+
+.header img {
+  height: 32px;
+  width: 100px;
+}
+
+.modal .sub-text p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.modal .sub-text {
+  margin: 24px 0;
+}
+
+.footer-button button {
+  background-color: #e80f5b;
+  color: white !important;
+  font-weight: bolder;
+  padding: 20px 60px;
+  border: 1px solid #e80f5b;
+  border-radius: 32px;
+}
+
+.pf {
+  padding: 40px 0 20px;
+}
+
+.section h2 {
+  font-weight: 700;
+  margin-bottom: 25px;
+  letter-spacing: normal;
+}
+
+.title p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.sub-section {
+  margin: 20px 0;
+}
+
+.icon {
+  font-size: 32px;
+  padding-right: 32px;
+  display: inline-block;
+}
+
+.icon-with-title {
+  height: 36px;
+  display: flex;
+  margin-bottom: 16px;
+  -webkit-box-align: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.icon-with-title p {
+  padding-top: 15px;
+}
+
+.kn-tag button {
+  border: none;
+  background-color: rgba(0, 169, 157, 0.1);
+  padding: 8px;
+  /* margin-top: 10px; */
+  color: #00a99d;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px;
+  line-height: 16px;
+  text-align: left;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+.kn-tag a {
+  text-decoration: none;
+  color: #00a99d;
+}
+
+.fa-angle-up {
+  margin: 0 15px;
+}
+
+.markets .kn-tag {
+  padding-bottom: 10px;
+}
+
+.section {
+  margin: 100px 0;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.ng-star {
+  margin-top: 40px;
+}
+
+.left-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 3rem !important;
+}
+
+.footer-1 {
+  width: 100%;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 30px 0;
+}
+
+.contact-info {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 25% 45% 300%;
+}
+
+.info__logo h1 {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: normal;
+}
+.info__logo img {
+  min-width: 64px;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  margin-right: 24px;
+}
+
+.info__logo {
+  display: grid;
+}
+
+.info__address p {
+  padding-left: 20px;
+}
+
+.info__contact {
+  display: flex;
+  margin-top: 10px;
+}
+
+.info__contact i {
+  margin: 0 10px 0 0;
+}
+
+.info__contact a {
+  text-decoration: none;
+  color: white !important;
+}
+
+.footer-2 {
+  position: relative;
+  padding: 40px 0;
+  background-color: #232d33;
+  color: #fff;
+  z-index: 1000;
+  padding-bottom: 70px;
+}
+
+.sub-title {
+  margin-bottom: 32px !important;
+}
+
+.footer-2 p {
+  font-size: 14px;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  line-height: 26px;
+  margin: 0 15px 5px 0;
+  text-align: center;
+}
+
+.social-icon i {
+  font-size: 34px;
+}
+
+.subscribe-form {
+  padding-top: 20px;
+  max-width: 350px;
+}
+
+.form {
+  float: left;
+  width: 100%;
+  display: block;
+}
+
+.subscribe-form input {
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #000;
+  height: 40px;
+  font-style: italic;
+}
+
+.form-control {
+  font-size: 12px;
+}
+
+.link {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+  padding-top: 20px;
+}
+
+.link a {
+  color: #fff !important;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding-right: 20px;
+}
+
+.linkedin {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.linkedin a {
+  background: #fff;
+  font-weight: 700;
+  color: #00a99d;
+  border: 2px solid #00a99d;
+  cursor: pointer;
+  height: 36px;
+  padding: 8px 40px;
+  border-radius: 25px;
+  font-size: 13px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.social-icon a {
+  color: white !important;
+  text-decoration: none;
+}
+
+/* ------------- media query ------------- */
+
+@media (max-width: 575.98px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  /* document */
+
+  .document h2 {
+    font-size: 23px !important;
+  }
+
+  .all-document {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .img img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .card {
+    width: 345px;
+  }
+
+  .card h4 {
+    font-size: 18px;
+  }
+
+  .card .text {
+    padding-left: 40px;
+  }
+
+  .card .text p {
+    font-size: 14px;
+  }
+
+  .message-button {
+    margin-top: 20px;
+  }
+
+  .section {
+    padding: 0px;
+  }
+
+  /* oligogeline section  */
+
+  .oligogeline-section h2 {
+    font-size: 23px !important;
+  }
+
+  .kn-tag button {
+    margin-left: 40px;
+  }
+}
