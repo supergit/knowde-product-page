@@ -14,10 +14,6 @@
 .knowde {
   width: 100%;
   padding-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 15%;
-  padding-right: 15%;
   background-image: linear-gradient(92deg, #ac6cec, #e80f5b);
 }
 .knowde .bg-color {
@@ -66,13 +62,9 @@
   padding-right: 5%;
 }
 .knowde-second {
-  height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 100%;
-  padding-left: 15%;
-  padding-right: 15%;
   background: #fff;
 }
 .iconKnowde {
@@ -124,16 +116,13 @@
   outline: none;
 }
 .knowd-third {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  vertical-align: middle;
   width: 100%;
   padding-left: 50%;
 }
 .main-container {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 .submain-container {
   width: 100%;
@@ -148,15 +137,8 @@
   color: white;
 }
 .headerbox {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 100%;
   height: 100%;
-  position: relative;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-top: 2%;
 }
 .icon-frame {
   display: flex;
@@ -221,8 +203,16 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 5%;
-  margin-top: -80px;
+  margin-top: -120px;
+}
+@media screen and (max-width: 992px) {
+  .main-modal {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 0px;
+  }
 }
 .modal-container {
   height: 350px;
@@ -425,4 +415,61 @@
 }
 .sp {
   color: #000;
+}
+.bg-color {
+  background: rgba(0, 0, 0, 0.7);
+}
+.pftext {
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 1.3;
+}
+.bridgetext {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.bridgetextnext {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 2;
+}
+.olig-logo {
+  min-width: 64px;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  margin-right: 24px;
+}
+.footer-bg-color {
+  background: #232d33;
+}
+.contactknowde {
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 2;
+}
+.addressknowde {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+}
+.oligonline {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.oligonline:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+.start {
+  padding: 1%;
 }

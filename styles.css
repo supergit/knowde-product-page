@@ -280,8 +280,7 @@ body {
 }
 
 .subscribe-form {
-  padding-top: 20px;
-  max-width: 350px;
+  /* padding-top: 20px; */
 }
 
 .form {
@@ -291,6 +290,7 @@ body {
 }
 
 .subscribe-form input {
+  width: 300px;
   padding: 10px 20px;
   border: 1px solid transparent;
   border-radius: 8px;
@@ -321,7 +321,6 @@ body {
 
 .linkedin {
   text-align: left;
-  padding-top: 20px;
 }
 
 .linkedin a {
@@ -336,8 +335,9 @@ body {
   font-size: 13px;
   max-width: 100%;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+}
+.linkedin a:hover {
+  text-decoration: none;
 }
 
 .social-icon a {
