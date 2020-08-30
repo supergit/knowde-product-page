@@ -482,6 +482,44 @@ ul#menu li {
   height: 1px;
   background: #f5f3f5;
 }
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .feat::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 73%;
+    height: 1px;
+    background: #f5f3f5;
+  }
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+  .feat::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 60%;
+    height: 1px;
+    background: #f5f3f5;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .feat::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 55%;
+    height: 1px;
+    background: #f5f3f5;
+  }
+}
+@media (min-width: 0px) and (max-width: 600px) {
+  .feat::after {
+    display: none;
+  }
+}
 #properties {
   margin-top: 20px;
   height: auto;
