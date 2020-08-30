@@ -16,7 +16,6 @@ body {
 }
 .knowde {
   width: 100%;
-  padding-top: 20px;
   background-image: linear-gradient(92deg, #ac6cec, #e80f5b);
 }
 .knowde .bg-color {
@@ -526,8 +525,41 @@ body {
     margin-bottom: 15%;
   }
 }
+.second-nav {
+  background-image: linear-gradient(92deg, #ffffff, #ffffff);
+  top: 50px;
+}
+.trr {
+  display: none;
+}
 @media only screen and (max-width: 900px) {
-  .submain-container {
-    height: 20rem;
+  .ulbutton {
+    display: none;
   }
+}
+@media only screen and (max-width: 900px) {
+  .trr {
+    display: inline;
+  }
+}
+select {
+  width: 100%;
+}
+.optext {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+.form-control {
+  width: 40rem;
+  border: 1px solid #00a99d;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+.form-control:focus {
+  outline: none;
 }
