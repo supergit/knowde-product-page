@@ -30,6 +30,39 @@
     <title>Knowde</title>
   </head>
   <body>
+    <div class="footerbar">
+      <div class="container">
+        <div class="row">
+    <div class="col">
+     <button type="button" class="sign-button" class="signup" data-toggle="modal"
+     data-target="#myModalShare">
+        Share
+      </button>
+    </div>
+    <div class="col">
+     <button type="button" class="sign-button" class="signup" data-toggle="modal" data-target="#message-modal" >
+      Ask question
+      </button>
+  
+    </div>
+    <div class="col">
+     <button type="button" class="sign-button" class="signup" data-toggle="modal"
+     data-target="#myModalSample">
+        Request sample
+      </button>
+    </div>
+    <div class="col">
+      <button
+      class="quotebutton"
+      data-toggle="modal"
+      data-target="#myModal"
+    >
+      Request a Quote
+    </button>
+    </div>
+    </div>
+    </div>
+    </div>
     <div class="container-fluid navbar">
       <div class="knowde">
         <div class="container">
@@ -83,7 +116,7 @@
     </div>
     <div style="margin-top: 7%; display: flex; flex-direction: column">
       <div class="container-fluid">
-        <section class="submain-container">
+         <section class="submain-container">
           <div class="container">
             <div class="row d-flex justify-content-end align-items-center">
             <div class="row d-flex justify-content-between align-items-center text-center new">
@@ -117,7 +150,7 @@
                 </div>
               </div>
 
-              <!-- jhjjbjb -->
+     
                <div class="d-flex flex-wrap">
                 <div class="newbutton-container">
                   <div class="trr">
@@ -166,9 +199,9 @@
               </div> 
             </div>
           </div>
-        </section>
+        </section> 
         <div class="container">
-          <div style="margin-top: 20px;margin-bottom: 20px;">
+          <div style="margin-top: 30px;margin-bottom: 20px;">
           <p class="oli">
             <a
               href="https://www.knowde.com/"
@@ -526,32 +559,23 @@
         </div>
       </div>
       </div>
-      <div class="container-fluid">
         <div class="container">
-            <div class="document section">
-                <div class="row">
-                    <div class="col-4 col-sm-12">
-                        <div class="title">
-                            <h2 id="experts">Document</h2>
-                        </div>
-                    </div>
-                </div>
-    
-                        <div class="all-document text-right">
-                            <a href="">See all documents (1)</a>
-                        </div>
-    
-                <div class="row">
-                    <div class="col-12 col-sm-12">
-                        <h2 >Meet our experts</h2>
-                    </div>
-                </div>
-                
+            <div class="row" style="padding-top: 20px;">
+                <p id="experts">Documents</p>
+            </div>
+            <div class="all-document text-right">
+              <a href="#">See all documents (1)</a>
+          </div>
+          <div class="row">
+            <p id="m">Meet our experts</p>
+          </div>
+        </div>
+
+
+        <div class="container">
                 <div class="meet-experts">
-                   
-    
+                  <div class="row">
                     <div class="card">
-                        
                         <div class="row">
                             <div class="col-2 img">
                                 <img src="https://static.knowde.com/default-avatar.jpg"" alt="">
@@ -571,44 +595,182 @@
                         <div class="modal fade text-center" id="message-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                               <div class="modal-content">
+                                <div style="padding: 2%">
+                                  <button
+                                    type="button"
+                                    class="close"
+                                    data-dismiss="modal"
+                                  >
+                                    &times;
+                                  </button>
+                                </div>
                                 <div class="modal-body">
-    
                                     <div class="header ">
                                         <a href=""><img src="https://static.knowde.com/knowde-logo/main-logo-1.svg" alt=""></a>
                                     </div>
-    
                                     <div class="big-title ">
                                         <h1>
                                             You`ll need an account to message experts.</h1>
                                     </div>
-                                    
                                     <p class="sub-text" >Don't Worry It's Free</p>
     
-                                    <div class="footer-button">
-                                        <a href=""><button data-dismiss="modal" >Sign Up</button></a>
+                                    <div style="display: flex; justify-content: center">
+                                      <button class="quotebuttonsec">
+                                        <a
+                                          href="https://www.knowde.com/sign-up"
+                                          class="quotebuttonsectext"
+                                          >Sign up</a
+                                        >
+                                      </button>
                                     </div>
-    
-                                    <p class="sub-text" >Already Have an Account? <a href="">Log in</a></p>
-    
+                                    <div
+                              style="
+                                display: flex;
+                                justify-content: center;
+                                padding-top: 20px;
+                              "
+                            >
+                              <p class="logintext">
+                                Already have an account?<span
+                                  class="loginSectext"
+                                >
+                                  <a
+                                    href="https://www.knowde.com/sign-in"
+                                    class="logtext"
+                                  >
+                                    Log in
+                                  </a>
+                                </span>
+                              </p>
+                            </div>
                                 </div>
-                                
                               </div>
                             </div>
                           </div>
                     
                     </div>
-    
+                  </div>
                 </div>
-    
+            
                 <div class="all-exports text-right">
                     <a href="">See all exportss (1)</a>
                 </div>
-    
-                <div class="properties" id="properties">
-                    <h2>Properties</h2>
+                <div class="row">
+                <div class="col" id="properties">
+                    <p id="m">Properties</p>
+                    <div class="features">
+                      <span class="feat">Features And Benefits</span>
+                    </div>
+                    <div class="col ing">
+                      <p class="ingr">Ingredient Claims</p>
+                      <div class="hh">
+                      <p class="ingr-1">Natural Origin</p>
+                      <div class="hh1">
+                        <p class="ingr-1">Preservative-free</p>
+                      </div>
+                      <div class="hh1">
+                        <p class="ingr-1">Oil-free</p>
+                      </div>
+                    </div>
+                    </div>
                 </div>
+              </div>
+              <div class="row">
+                <div class="col" id="properties">
+                    <div class="col ing">
+                      <p class="ingr">End Use Claims</p>
+                      <div class="hh">
+                        <p class="ingr-1">Smoothing</p>
+                      <div class="hh1">
+                        <p class="ingr-1">Anti-pollution</p>
+                      </div>
+                      <div class="hh1">
+                        <p class="ingr-1">Shine and radiance</p>
+                      </div>
+                      <div class="hh1">
+                        <p class="ingr-1">Long lasting</p>
+                      </div>
+                      <div class="hh1">
+                        <p class="ingr-1">Film forming</p>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col" id="properties">
+                    <div class="col ing">
+                      <p class="ingr">Regulatory Status</p>
+                      <div class="hh">
+                        <p class="ingr-1">China Compliant</p>
+                    </div>
+                    </div>
+                </div>
+              </div>
             </div>
-    
+            <div class="container">
+            <div class="row">
+              <div class="col" id="properties">
+                <div class="features">
+                  <span class="feat">Product Characteristics</span>
+                </div>
+             <div class="char">
+                <div class="char-sec">
+                  <div class="char-third">
+                    <p class="origin-text">origin</p>
+                  </div>
+                  <div class="sub-origin">
+                    <div class="sub-origin-new">
+                      <p class="marine">Marine Origin</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="char-sec">
+                  <div class="char-third">
+                    <p class="origin-text">Physical Form</p>
+                  </div>
+                  <div class="sub-origin">
+                    <div class="sub-origin-new">
+                      <p class="marine">Gel</p>
+                    </div>
+                  </div>
+                </div>
+             </div>
+            </div>
+          </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col" id="properties">
+                  <div class="features">
+                    <span class="feat">Formulation Conditions</span>
+                  </div>
+               <div class="char">
+                  <div class="char-sec">
+                    <div class="char-third">
+                      <p class="origin-text">Use Level</p>
+                    </div>
+                    <div class="sub-origin">
+                      <div class="sub-origin-new">
+                        <p class="marine">2-3%</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="char-sec">
+                    <div class="char-third">
+                      <p class="origin-text">Soluble In</p>
+                    </div>
+                    <div class="sub-origin">
+                      <div class="sub-origin-new">
+                        <p class="marine">Water</p>
+                      </div>
+                    </div>
+                  </div>
+               </div>
+              </div>
+            </div>
+              </div>
+            <div class="container">
             <div class="oligogeline-section section">
                 <div class="title">
                     <h2>Knowdz for Oligogeline&trade; PF</h2>
@@ -854,7 +1016,7 @@
                     </div>
                 </div>
             </div>
-          </div>
+            </div>
     <div class="container">
             <div class="col">
                 <div class="title">
@@ -867,7 +1029,7 @@
                         </div>
                         <div class="row">
                             <div class="col offset-md-3">
-                                <p>
+                                <p class="oligo">
                                     OLIGOGELINE&trade; PF comes from a specific algal origin: chondrus crispus algae, a red seaweed living in deep water, submitted to extreme environmental conditions (UV exposure, dry conditions at low tide.
                                 </p>
                             </div>
@@ -880,7 +1042,7 @@
                         </div>
                         <div class="row">
                             <div class="col offset-md-3">
-                                <p>
+                              <p class="oligo">
                                     OLIGOGELINE&trade; PF is a second skin ingredient that is forming a film on the skin's surface.
                                     This long-lasting action is due to bio-mimetic properties between skin proteins and carrageenans. They bind together, forming a film on skin's surface, like a second skin.
                                 </p>
@@ -895,19 +1057,19 @@
                         <div class="row">
                             <div class="col-12 offset-md-3">
                                <ul>
-                                   <li>
+                                   <li class="oligo">
                                         Natural shield for pollution protection
                                    </li>
-                                   <li>
+                                   <li class="oligo">
                                         43% protection versus non treated area
                                    </li>
-                                   <li>
+                                   <li class="oligo">
                                         78% of microparticles quantity removed versus before rinsing
-                                    </li>
-                                    <li>
+                                    </li class="oligo">
+                                    <li class="oligo">
                                         Second skin ingredient: TEWL -38% after 2 hours
                                     </li>
-                                    <li>
+                                    <li class="oligo">
                                         Long lasting diffusion
                                     </li>
                                </ul>
@@ -950,7 +1112,7 @@
     
         <div class="container-fluid footer-bg-color">
            <div class="container">
-                <div class="row">
+                <div class="row hfooter">
                     <div class="col-12 col-sm-6">
                         <div class="address">
                             <div class="row">
@@ -1027,7 +1189,6 @@
            </div>
         </div>
     
-    </div>
     </div>
     <div class="modal fade" id="myModal" >
       <div class="modal-dialog">
@@ -1109,7 +1270,6 @@
               </p>
             </div>
           </div>
-          
       </div>
     </div>
   </body>

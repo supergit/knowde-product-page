@@ -403,3 +403,142 @@ body {
     margin-left: 40px;
   }
 }
+#experts {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: #000000;
+}
+#m {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: #000000;
+}
+.ing {
+  padding-top: 20px;
+  margin: 0 20px 0 30px;
+  text-align: left;
+}
+
+ul#menu li {
+  display: inline;
+}
+.hh {
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  color: #222c2e;
+}
+.hh1 {
+  position: relative;
+  max-width: 100%;
+  padding-left: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hh1::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 13px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #e80f5b;
+}
+.features {
+  position: relative;
+  padding-right: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  background: #fff;
+  color: #222c2e;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: auto;
+}
+.feat {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #222c2e;
+}
+.feat::before {
+  position: relative;
+  padding-right: 20px;
+  background: #fff;
+  z-index: 1;
+}
+
+.feat::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 80%;
+  height: 1px;
+  background: #f5f3f5;
+}
+#properties {
+  margin-top: 20px;
+  height: auto;
+}
+.ingr {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #666;
+}
+.ingr-1 {
+  font-size: 14px;
+  color: #222c2e;
+}
+.char {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 40px;
+}
+.char-sec {
+  flex-basis: 25%;
+  padding-top: 20px;
+}
+.char-third {
+  text-align: left;
+}
+.char-fourth {
+  margin: 15px 0 5px;
+  text-transform: capitalize;
+  font-size: 12px;
+  color: #666;
+}
+.origin-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #666;
+}
+.sub-origin {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 14px;
+  color: #222c2e;
+}
+.sub-origin-new {
+  padding-left: 0px;
+}
+.marine {
+  text-align: left;
+}
+.footerbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
