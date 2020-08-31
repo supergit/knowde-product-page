@@ -4,10 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
@@ -17,13 +13,11 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
     
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./styles.css" />
@@ -33,31 +27,59 @@
     <div class="footerbar">
       <div class="container">
         <div class="row">
-    <div class="col">
+          <div class="col bfooter" style="padding-right: 0px !important;" >
+            <button type="button" class="sign-button" class="signup" data-toggle="modal"
+            data-target="#myModalShare">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+             </button>
+           </div>
+           <div class="col footerb" style="padding-right: 0px !important;" >
+            <button type="button" class="sign-button" class="signup" data-toggle="modal"
+            data-target="#myModalShare">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+             </button>
+           </div>
+    <div class="col bfooter" style="padding-right: 0px !important;" >
      <button type="button" class="sign-button" class="signup" data-toggle="modal"
      data-target="#myModalShare">
         Share
       </button>
     </div>
-    <div class="col">
+    <div class="col footerb" style="padding-right: 0px !important;" >
+      <button type="button" class="sign-button" class="signup" data-toggle="modal"
+      data-target="#myModalShare">
+      <i class="fa fa-globe" aria-hidden="true"></i>
+       </button>
+     </div>
+    <div class="col bfooter"  style="padding-right: 0px !important; padding-left: 0px !important;" >
      <button type="button" class="sign-button" class="signup" data-toggle="modal" data-target="#message-modal" >
       Ask question
       </button>
-  
     </div>
-    <div class="col">
+    <div class="col footerb"  style="padding-right: 0px !important; padding-left: 0px !important;" >
+      <button type="button" class="sign-button" class="signup" data-toggle="modal" data-target="#message-modal" >
+        <i class="fa fa-globe" aria-hidden="true"></i>
+       </button>
+     </div>
+    <div class="col bfooter" style="padding-right: 0px !important; padding-left: 0px !important;">
      <button type="button" class="sign-button" class="signup" data-toggle="modal"
      data-target="#myModalSample">
         Request sample
       </button>
     </div>
-    <div class="col">
+    <div class="col footerb" style="padding-right: 0px !important; padding-left: 0px !important;">
+      <button type="button" class="sign-button" class="signup" data-toggle="modal"
+      data-target="#myModalSample">
+      <i class="fa fa-globe" aria-hidden="true"></i>
+       </button>
+     </div>
+    <div class="col" style="padding-left: 0px !important;">
       <button
       class="quotebutton"
       data-toggle="modal"
       data-target="#myModal"
     >
-      Request a Quote
+      Get a Quote
     </button>
     </div>
     </div>
@@ -96,14 +118,41 @@
               />
             </a>
           </div>
+      <div class="col" id="drp">
+        <div class="d-flex justify-content-between align-items-center mediasign">
+            <a href="https://www.knowde.com/sign-in" class="stext"
+            ><button type="button" class="sign-button" class="signup">
+              Sign In
+            </button>
+          </a>
+          <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+            <div class="burger"></div>
+            <div class="burger"></div>
+            <div class="burger"></div>
+          </button>
+            <div class="dropdown-menu">
+              <a href="https://www.knowde.com/buyers"
+              ><button class="trial-third">For Buyers</button></a
+            >
+            <a href="https://www.knowde.com/producers"
+            ><button class="trial-third">For Producers</button></a
+          >
+            </div>
+          </div>
+        </div>
+        </div>
+        
           <div class="col knowd-third">
             <div class="d-flex justify-content-between align-items-center">
               <a href="https://www.knowde.com/buyers"
                 ><button class="trial-third">For Buyers</button></a
               >
+              <div class="knowt">
               <a href="https://www.knowde.com/producers"
                 ><button class="trial-third">For Producers</button></a
               >
+            </div>
               <a href="https://www.knowde.com/sign-in" class="stext"
                 ><button type="button" class="sign-button" class="signup">
                   Sign In
@@ -111,11 +160,13 @@
               </a>
             </div>
           </div>
-        </div>
+          <!-- dropdown -->
+
+      </div>
       </div>
     </div>
-    <div style="margin-top: 7%; display: flex; flex-direction: column">
-      <div class="container-fluid">
+    <div style="margin-top: 7%; display: flex; flex-direction: column" style="padding: 0 15px;" >
+      <div class="container-fluid" >
          <section class="submain-container">
           <div class="container">
             <div class="row d-flex justify-content-end align-items-center">
@@ -149,19 +200,52 @@
                   </a>
                 </div>
               </div>
-
      
-               <div class="d-flex flex-wrap">
+               <div>
                 <div class="newbutton-container">
                   <div class="trr">
-                    <select class="form-control" id="sel1" name="sellist1">
-                      <option class="optext">General</option>
-                      <option class="optext">Properties</option>
-                      <option class="optext">Experts</option>
-                      <option class="optext">Documents</option>
-                      <option class="optext">Formulations</option>
-                    </select>
+                    <div class="dropdown">
+                      <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+                      <div class="dropOwn">
+                     General
+                      </div>
+                    </button>
+                      <div class="dropdown-menu hmenu">
+                        <a
+                      href="https://www.knowde.com/products/oligogeline-pf"
+                      class="libone active"
+                      ><li class="libuttons">
+                        <i class="fa fa-home"></i> General
+                      </li></a
+                    >
+                    <a href="#properties" class="libs"
+                      ><li class="libuttons">
+                        <i class="fa fa-home"></i> Properties
+                      </li></a
+                    >
+                    <a href="#experts" class="libs"
+                      ><li class="libuttons">
+                        <i class="fa fa-home"></i> Experts
+                      </li></a
+                    >
+                    <a
+                      href="https://www.knowde.com/products/oligogeline-pf/documents"
+                      class="libs"
+                      ><li class="libuttons">
+                        <i class="fa fa-home"></i> Documents
+                      </li></a
+                    >
+                    <a
+                      href="https://www.knowde.com/products/oligogeline-pf/formulations?third_party_formulations=false"
+                      class="libs"
+                      ><li class="libuttons">
+                        <i class="fa fa-home"></i> Formulations
+                      </li></a
+                    >
+                      </div>
                     </div>
+
+                  </div>
                   <ul class="ulbutton" id="myDIV">
                     <a
                       href="https://www.knowde.com/products/oligogeline-pf"
@@ -224,9 +308,10 @@
             <span class="olig">Oligogeline™ PF</span>
           </p>
         </div>
-          <div class="row">
+          <div class="row"  >
           <div
             class="newsepic"
+            style="padding: 0px 15px;"
           >
               <div class="sss">
               <p class="sepicinc">SEPPIC INC</p>
@@ -559,22 +644,22 @@
         </div>
       </div>
       </div>
-        <div class="container">
-            <div class="row" style="padding-top: 20px;">
+        <div class="container" >
+            <div class="row" style="padding-top: 20px; padding-right: 15px; padding-left: 15px;">
                 <p id="experts">Documents</p>
             </div>
             <div class="all-document text-right">
               <a href="#">See all documents (1)</a>
           </div>
-          <div class="row">
+          <div class="row" style="padding: 0px 15px;" >
             <p id="m">Meet our experts</p>
           </div>
         </div>
 
 
-        <div class="container">
+        <div class="container" >
                 <div class="meet-experts">
-                  <div class="row">
+                  <div class="row" style="padding: 0px 15px;" >
                     <div class="card">
                         <div class="row">
                             <div class="col-2 img">
@@ -655,7 +740,7 @@
                 <div class="all-exports text-right">
                     <a href="">See all exportss (1)</a>
                 </div>
-                <div class="row">
+                <div>
                 <div class="col" id="properties">
                     <p id="m">Properties</p>
                     <div class="features">
@@ -674,8 +759,8 @@
                     </div>
                     </div>
                 </div>
-              </div>
-              <div class="row">
+              </div> 
+              <div>
                 <div class="col" id="properties">
                     <div class="col ing">
                       <p class="ingr">End Use Claims</p>
@@ -697,7 +782,7 @@
                     </div>
                 </div>
               </div>
-              <div class="row">
+              <div>
                 <div class="col" id="properties">
                     <div class="col ing">
                       <p class="ingr">Regulatory Status</p>
@@ -706,7 +791,7 @@
                     </div>
                     </div>
                 </div>
-              </div>
+              </div> 
             </div>
             <div class="container">
             <div class="row">
@@ -773,7 +858,7 @@
             <div class="container">
             <div class="oligogeline-section section">
                 <div class="title">
-                    <h2>Knowdz for Oligogeline&trade; PF</h2>
+                    <p id="knowdztext">Knowdz for Oligogeline&trade; PF</p>
                     <p>Knowdz are tags which let you search for products with similiar features.</p>
                 </div>
                 <div class="pf">
@@ -787,22 +872,21 @@
                         </div>
                         <div class="col-9">
                             <div class="row">
-                                <div class="col-md-4 col-sm-12 kn-tag">
+                                <div class="col-lg-4 kn-tag">
                                     <button type="button"><a href="https://www.knowde.com/companies/seppic-inc/products?producers=1405&groupby=ungrouped&focuson=all_products&hide_blends=false&only_naturals=false&industries=1&object_type=industries" target="_blank" >Personal Care</a></button>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                     </div>
         
-                    <div class="row incis sub-section">
+                     <div class="row incis sub-section">
                         <div class="col-3">
                             <div class="icon-with-title">
                                 <span class="icon"><i class="fab fa-app-store"></i></span>
                                 <p>INCIs</p>
                             </div>
-                            <!-- <p> <span class="icon"><i class="fab fa-app-store"></i></span> <span class="text" > INCIs </span> </p>   -->
                         </div>
-                        <div class="col-9">
+                         <div class="col">
                             <div class="row">
                                 <div class="col-lg-4 kn-tag">
                                     <button type="button"><a href="https://www.knowde.com/companies/seppic-inc/products?producers=1405&groupby=ungrouped&focuson=all_products&hide_blends=false&only_naturals=false&incis=9&object_type=incis" target="_blank" >Water</a></button>
@@ -814,7 +898,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> 
         
                     <div class="row functions sub-section">
                         <div class="col-3">
@@ -822,9 +906,8 @@
                                 <span class="icon"><i class="fab fa-app-store"></i></span>
                                 <p>Functions</p>
                             </div>
-                            <!-- <p> <span class="icon"><i class="fab fa-app-store"></i></span> <span class="text" > Functions </span> </p>   -->
                         </div>
-                        <div class="col-9">
+                        <div class="col">
                             <div class="row">
                                 <div class="col-lg-4 kn-tag">
                                     <button type="button"><a href="https://www.knowde.com/companies/seppic-inc/products?producers=1405&groupby=ungrouped&focuson=all_products&hide_blends=false&only_naturals=false&functions=100&object_type=functions" target="_blank" >Skin Protectant</a></button>
@@ -876,7 +959,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> 
         
                     <div class="row categories sub-section">
                         <div class="col-3">
@@ -884,9 +967,8 @@
                                 <span class="icon"><i class="fab fa-app-store"></i></span>
                                 <p>Categories</p>
                             </div>
-                            <!-- <p> <span class="icon"><i class="fab fa-app-store"></i></span> <span class="text" > Categories </span> </p>   -->
                         </div>
-                        <div class="col-9">
+                        <div class="col">
                             <div class="row">
                                 <div class="col-lg-4 kn-tag">
                                     <button type="button"><a href="https://www.knowde.com/companies/seppic-inc/products?producers=1405&groupby=ungrouped&focuson=all_products&hide_blends=false&only_naturals=false&ingredient_classes=1&object_type=categories" target="_blank" >Functional Actives</a></button>
@@ -897,34 +979,32 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> 
         
-                    <div class="row chamical-families sub-section">
+                     <div class="row chamical-families sub-section">
                         <div class="col-3">
                             <div class="icon-with-title">
                                 <span class="icon"><i class="fab fa-app-store"></i></span>
                                 <p>Chemical families</p>
                             </div>
-                            <!-- <p> <span class="icon"><i class="fab fa-app-store"></i></span> <span class="text" > Chemical familie </span> s</p>   -->
                         </div>
-                        <div class="col-9">
+                        <div class="col">
                             <div class="row">
                                 <div class="col-lg-4 kn-tag">
                                     <button type="button"><a href="https://www.knowde.com/companies/seppic-inc/products?producers=1405&groupby=ungrouped&focuson=all_products&hide_blends=false&only_naturals=false&families=26&object_type=families" target="_blank" >Carrageenans</a></button>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> 
         
-                    <div class="row markets sub-section">
+                     <div class="row markets sub-section">
                         <div class="col-3">
                             <div class="icon-with-title">
                                 <span class="icon"><i class="fab fa-app-store"></i></span>
                                 <p>Markets</p>
                             </div>
-                            <!-- <p> <span class="icon"><i class="fab fa-app-store"></i></span> <span class="text" > Markets </span> </p>   -->
                         </div>
-                        <div class="col-9">
+                        <div class="col">
                             <div class="row">
                                 <div class="col-lg-4 kn-tag">
                                     <button type="button"><a href="https://www.knowde.com/companies/seppic-inc/products?producers=1405&groupby=ungrouped&focuson=all_products&hide_blends=false&only_naturals=false&sub_markets=1&object_type=markets" target="_blank" >Beauty & Personal Care</a></button>
@@ -948,7 +1028,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> 
         
                     <div class="row end-users sub-section">
                         <div class="col-3">
@@ -957,9 +1037,8 @@
                                 <p>
                                     End uses</p>
                             </div>
-                            <!-- <p></p> <span class="icon"><i class="fab fa-app-store"></i></span> <span class="text" > End Users </span> </p>   -->
                         </div>
-                        <div class="col-9">
+                        <div class="col">
                             <div class="row">
                                 <div class="col-lg-4 kn-tag">
                                     <button type="button"><a href="https://www.knowde.com/companies/seppic-inc/products?producers=1405&groupby=ungrouped&focuson=all_products&hide_blends=false&only_naturals=false&end_uses=365&object_type=enduses" target="_blank" >Bb Creams</a></button>
@@ -1013,19 +1092,19 @@
                             </div>
         
                         </div>
-                    </div>
-                </div>
+                    </div> 
+                </div> 
             </div>
             </div>
     <div class="container">
             <div class="col">
                 <div class="title">
-                    <h2>Technical product information</h2>
+                    <p id="techtext">Technical product information</p>
                 </div>
                 <div class="table-information">
                     <div class="ng-star">
                         <div class="row">
-                            <div class="col">Product Background</div>
+                            <div class="col"><p id="prbtext">Product Background</p></div>
                         </div>
                         <div class="row">
                             <div class="col offset-md-3">
@@ -1038,7 +1117,7 @@
     
                     <div class="ng-star">
                         <div class="row">
-                            <div class="col left-title">Mode of Action</div>
+                            <div class="col left-title"><p id="prbtext">Mode of Action</p></div>
                         </div>
                         <div class="row">
                             <div class="col offset-md-3">
@@ -1052,7 +1131,7 @@
     
                     <div class="ng-star">
                         <div class="row">
-                            <div class="col-12 left-title">Product Benefits</div>
+                            <div class="col-12 left-title"><p id="prbtext">Product Benefits</p></div>
                         </div>
                         <div class="row">
                             <div class="col offset-md-3">
@@ -1078,7 +1157,7 @@
                     </div>
                 </div>
             </div>
-          </div> 
+          </div>
        
     
         <div id="band" class="container-fluid text-center bg-color">
@@ -1088,7 +1167,7 @@
             <div class="col d-flex align-items-center">
                 <div class="d-flex align-items-center">
                   <img src="https://res.cloudinary.com/deb7dco1z/image/upload/v1598597365124/production/Company/1405/logo/image.jpg" alt="" class="olig-logo">
-                  <p class="text-left pftext">Oligogeline&trade; <br> PF</p>
+                  <p class="text-left" id="pftext">Oligogeline&trade; <br> PF</p>
               </div>
             </div>
             <div class="col d-flex align-items-center">
@@ -1108,7 +1187,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> 
     
         <div class="container-fluid footer-bg-color">
            <div class="container">
@@ -1119,8 +1198,8 @@
                                 <div class="col-1">
                                     <i class="fas fa-map-marker-alt"></i>
                                 </div>
-                                <div class="col">
-                                  <p class="contactknowde">Contact Knowde</p>
+                                 <div class="col">
+                                  <p id="contactknowde">Contact Knowde</p>
                                     <p class="addressknowde">
                                         333 W San Carlos Street, Suite 600<br/>
                                         San Jose, CA 95110</p>
@@ -1144,7 +1223,7 @@
                                               </div>
                                          
                                           </div>
-                                </div>
+                                </div> 
                             </div>
                         </div>
     
@@ -1183,11 +1262,11 @@
                               <a href="https://www.linkedin.com/company/knowde/">Share on LinkedIn</a>
                           </div>
                         </div>
-                        </div>
+                        </div> 
                     </div>
         </div>
            </div>
-        </div>
+        </div> 
     
     </div>
     <div class="modal fade" id="myModal" >
@@ -1272,5 +1351,6 @@
           </div>
       </div>
     </div>
+    
   </body>
 </html>
