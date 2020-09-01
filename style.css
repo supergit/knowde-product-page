@@ -11,6 +11,18 @@ body {
   padding-top: 8%;
   padding-bottom: 8%;
 }
+.privacya{
+  display: block;
+}
+.privacyb{
+  display: none;
+}
+.newfc{
+  display: flex;
+  justify-content:center ;
+  align-items: flex-start;
+  flex-direction: column;
+}
 #drp {
   display: none;
 }
@@ -1030,18 +1042,6 @@ padding-bottom: 10%;
     margin-left: 10px;
     width: 13rem;
   }
-}
-.privacya{
-  display: block;
-}
-.privacyb{
-  display: none;
-}
-.newfc{
-  display: flex;
-  justify-content:center ;
-  align-items: flex-start;
-  flex-direction: column;
 }
 @media (min-width: 0px) and (max-width: 576px) {
   .privacya{
