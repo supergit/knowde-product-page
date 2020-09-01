@@ -117,7 +117,7 @@ body {
 }
 
 .pf {
-  padding: 40px 0 20px;
+  /* padding: 40px 0 20px; */
 }
 
 .section h2 {
@@ -192,12 +192,13 @@ body {
 
 .ng-star {
   margin-top: 40px;
+  margin-bottom: 70px;
 }
 
 .left-title {
   font-size: 18px;
   font-weight: 500;
-  margin-bottom: 3rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .footer-1 {
@@ -587,7 +588,7 @@ body {
 }
 
 .ing {
-  padding-top: 20px;
+  padding-top: 15px;
   margin: 0 20px 0 30px;
   text-align: left;
 }
@@ -692,7 +693,7 @@ ul#menu li {
   }
 }
 #properties {
-  margin-top: 20px;
+  margin-top: 0px;
   height: auto;
 }
 .ingr {
@@ -761,6 +762,8 @@ ul#menu li {
   .footerb {
     display: inline;
   }
+}
+@media (min-width: 500px) and (max-width: 770px) {
   .footerbone {
     display: flex;
     justify-content: space-evenly;
@@ -768,4 +771,39 @@ ul#menu li {
     width: 60%;
     padding-right: 30%;
   }
+}
+@media (min-width: 0px) and (max-width: 500px) {
+  .footerbone {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    padding-right: 10%;
+  }
+}
+@media (min-width: 0px) and (max-width: 770px) {
+  .lcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.hproduct {
+  padding-left: 2%;
+}
+.iknowdeb {
+  display: none;
+}
+
+@media (min-width: 0px) and (max-width: 770px) {
+  .iknowdef {
+    display: none;
+  }
+  .iknowdeb {
+    display: inline;
+  }
+}
+
+.gn {
+  padding-left: 13%;
 }
