@@ -4,8 +4,20 @@
   margin: 0px;
   /* overflow-x: hidden; */
 }
+@font-face {
+  font-family: "knowde_icons";
+  src: url("./knowde-icons.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   height: 100%;
+}
+.footerbone i {
+  display: none;
+}
+.getb {
+  display: none;
 }
 .hfooter {
   padding-top: 8%;
@@ -206,7 +218,7 @@ body {
   list-style: none;
 }
 .libutton {
-  padding: 15px;
+  padding: 13px;
   width: auto;
   height: 56px;
   margin-right: 8px;
@@ -282,7 +294,7 @@ body {
 .tds-button {
   display: block;
   border-radius: 50px;
-  padding: 9px 30px;
+  padding: 10px 20px;
   background: #ffffff;
   border: 1px solid #e80f5b;
   font-weight: 600;
@@ -306,7 +318,7 @@ body {
 .sds-button {
   display: block;
   border-radius: 50px;
-  padding: 9px 30px;
+  padding: 10px 20px;
   background: #ffffff;
   border: 1px solid #e80f5b;
   font-weight: 600;
@@ -879,13 +891,13 @@ body {
   }
   @media (min-width: 340px) and (max-width: 375px) {
     .mediasign {
-      padding-left: 50%;
+      padding-left: 45%;
       margin-left: -80px;
     }
   }
   @media (min-width: 320px) and (max-width: 340px) {
     .mediasign {
-      padding-left: 42%;
+      padding-left: 35%;
       margin-left: -80px;
     }
   }
@@ -1070,5 +1082,194 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+}
+.ki-arrow:before {
+  content: "\e905";
+}
+.knowde-icons {
+  display: inline-block;
+  font: normal normal normal 14px/1 knowde_icons;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.submarkets-list__icon i {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  margin-right: 16px;
+}
+.ki-tds_2:before {
+  content: "\e9d6";
+}
+.ki-pdf_2:before {
+  content: "\e9df";
+}
+.ki-industry:before {
+  content: "\e91f";
+}
+.ki-function:before {
+  content: "\e919";
+}
+.ki-category:before {
+  content: "\e930";
+}
+.ki-chemical_family:before,
+.ki-family:before,
+.ki-polymer_family:before,
+.ki-processing_method:before {
+  content: "\e90a";
+}
+.ki-market:before,
+.ki-markets:before {
+  content: "\e928";
+}
+.ki-end_use:before {
+  content: "\e914";
+}
+.ki-home:before {
+  content: "\e91d";
+}
+
+.knowde-simple-menu__item.active i {
+  color: #00a99d;
+}
+.ki-properties:before {
+  content: "\e933";
+}
+.ki-request_content:before {
+  content: "\e935";
+}
+.ki-branded_product:before {
+  content: "\e907";
+}
+.ki-arrow_down:before {
+  content: "\e942";
+}
+.ki-request_sample:before {
+  content: "\e936";
+}
+.ki-request_sample:before {
+  content: "\e936";
+}
+.kn-card__footer button > i {
+  color: #00a99d;
+}
+.ki-request_content:before {
+  content: "\e935";
+}
+.ki-sds_2:before {
+  content: "\e9d7";
+}
+.ki-request_sample_2:before {
+  content: "\e9e0";
+}
+.ki-Messaging_02:before {
+  content: "\e9c5";
+}
+.ki-request_document:before {
+  content: "\e9e1";
+}
+.ki-Share_02:before {
+  content: "\e9c2";
+}
+.ki-address:before {
+  content: "\e902";
+}
+.ki-email:before {
+  content: "\e913";
+}
+.ki-address:before {
+  content: "\e902";
+}
+.ki-phone:before {
+  content: "\e92d";
+}
+.ki-email:before {
+  content: "\e913";
+}
+.ki-linkedin_filled:before {
+  content: "\e9bb";
+}
+.ki-instagram-filled:before {
+  content: "\e9d9";
+}
+.ki-facebook_filled:before {
+  content: "\e9ba";
+}
+.ki-twitter_filled:before {
+  content: "\e9bc";
+}
+.ki-vimeo-filled:before {
+  content: "\e9db";
+}
+.ki-youtube-filled:before {
+  content: "\e9da";
+}
+.ki-menu:before {
+  content: "\e929";
+}
+.ki-request_document:before {
+  content: "\e9e1";
+}
+.ki-Share_02:before {
+  content: "\e9c2";
+}
+.ki-knowde_logo:before {
+  content: "\e922";
+}
+.ki-expert:before {
+  content: "\e915";
+}
+.ki-request_content:before {
+  content: "\e935";
+}
+.ki-formulation:before {
+  content: "\e947";
+}
+.ki-messaging:before {
+  content: "\e92a";
+}
+.ki-chemical:before,
+.ki-inci:before {
+  content: "\e91e";
+}
+.ki-www:before {
+  content: "\e93f";
+}
+.document__icon {
+  font-size: 50px;
+  margin-right: 15px;
+}
+.btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+.kn-button--primary-inverted {
+  border: 1px solid #e80f5b;
+  background-color: #fff;
+  color: #e80f5b;
+}
+.newbfooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 10px;
+}
+.bfooter {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 0px) and (max-width: 1200px) {
+  .newbfooter {
+    display: none;
+  }
+  .footerbone i {
+    display: block;
+  }
+  .getb {
+    display: block;
   }
 }
